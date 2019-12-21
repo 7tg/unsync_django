@@ -12,6 +12,8 @@ django = "==2.2.9"
 django-extensions = "*"
 djangorestframework = "*"
 django-debug-toolbar = "*"
+aiohttp = "*"
+bs4 = "*"
 
 [requires]
 python_version = "3.8"
