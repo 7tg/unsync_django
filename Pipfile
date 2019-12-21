@@ -16,6 +16,7 @@ aiohttp = "*"
 bs4 = "*"
 gunicorn = "*"
 django-heroku = "*"
+idna-ssl = "*"
 
 [requires]
 python_version = "3.8"
