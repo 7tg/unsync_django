@@ -26,7 +26,6 @@ async def get_link_data(url, page_count):
     response = await get_html(url)
     soup = BeautifulSoup(response, 'html.parser')
     links = []
-
     for link in soup.find("ol", {"start": page_count}).find_all('a', href=True):
       links.append(str(link.get_text())+','+link['href'])
     
